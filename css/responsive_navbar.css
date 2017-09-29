@@ -68,7 +68,7 @@ li > a{
     position: relative;
     color: #000;
     text-decoration: none;
-    
+
 }
 
 li > a:hover{
@@ -132,4 +132,3 @@ img{
         display: inline;
     }
 }
-

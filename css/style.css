@@ -4,56 +4,28 @@ body  {
   font-family: 'SansSerif', 'Arial';
 }
 
-.nav  {
-  background-color: #ffffff;
-  color: #000000;
-  list-style: none;
-  text-align: right;
-  padding: 20px 0 0 0;
-  overflow: hidden;
-  position:absolute;
-  width: 100%;
-  box-shadow: -2px -7px -47px 9px rgba(0,0,0,0.35);
-  -moz-box-shadow: -2px -7px -47px 9px rgba(0,0,0,0.35);
-  -webkit-box-shadow: -2px -7px -47px 9px rgba(0,0,0,0.35);
-}
-
-.nav > li {
-  display: inline-block;
-  padding: 0 25px 0 25px;
-  font-size: 17px;
-}
-.nav > li > a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.nav > li > a:hover {
-  color: #ffffff;
-}
-
 .logo  {
-  color: #000000;
+  color: saddlebrown;
   float: left;
-  padding-left: 40px;
-  font-size: 25px;
-  font-weight: bold;
+  padding-left: 10px;
+  font-size: 40px;
+  font-weight: lighter;
   font-family: SansSerif;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+
 }
 
 .logo > a {
   text-decoration: none;
-  color: darkolivegreen;
+  color: red;
+  font-size: 50px;
+  font-family: SansSerif;
 }
 
-.banner {
-  width: 100%;
-  display: block;
-}
-
-.banner > .banner-image  {
-  width: 100%;
-  display: block;
+.logo:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .section  {
@@ -68,7 +40,7 @@ body  {
 }
 
 .showcase-img {
-  position: relative;
+  position: absolute;
   max-width: 200%;
   margin: 3rem auto -12rem;
 }
@@ -94,5 +66,73 @@ body  {
 
 .section-c .section-description {
   margin-bottom:4rem;
+}
+
+h1  {
+  padding-top: 12%;
+  text-align: center;
+  font-family: SansSerif;
+  font-size: 120px;
+}
+
+h2  {
+  padding-top: 4%;
+  text-align: center;
+  font-size: 50px;
+    font-family: Monospaced;
+  color: coral;
+  font-stretch: extra-expanded;
+}
+
+h3  {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Liberation Serif";
+  color: dimgray;
+
+}
+
+h4  {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bitstream Charter";
+  color: darkslategray;
+  font-stretch: extra-expanded;
+}
+
+.button-primary {
+  padding-top: 8%;
+  text-align: center;
+}
+
+.swagButton {
+  display: inline-block;
+  text-align: center;
+  font-family: Monospaced;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 10px 40px;
+  color: black;
+  border: solid 2px black;
+  border-radius: 50px;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+}
+
+.swagButton:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+
+}
+
+.form-inline  {
+  padding-top: 30%;
+}
+
+.btn-primary  {
+  text-align: center;
 }
 
