@@ -10,7 +10,7 @@ header{
 }
 
 nav{
-    background: #efefef;
+    background: white;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -132,3 +132,4 @@ img{
         display: inline;
     }
 }
+
