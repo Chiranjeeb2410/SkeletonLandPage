@@ -1,0 +1,97 @@
+body  {
+  margin: 0;
+  padding: 0;
+  font-family: 'SansSerif', 'Arial';
+}
+
+.nav  {
+  background-color: #ffffff;
+  color: #000000;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 0 0;
+  overflow: hidden;
+  position:absolute;
+  width: 100%;
+  box-shadow: -2px -7px -47px 9px rgba(0,0,0,0.35);
+  -moz-box-shadow: -2px -7px -47px 9px rgba(0,0,0,0.35);
+  -webkit-box-shadow: -2px -7px -47px 9px rgba(0,0,0,0.35);
+}
+
+.nav > li {
+  display: inline-block;
+  padding: 0 25px 0 25px;
+  font-size: 17px;
+}
+.nav > li > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav > li > a:hover {
+  color: #ffffff;
+}
+
+.logo  {
+  color: #000000;
+  float: left;
+  padding-left: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: SansSerif;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: darkolivegreen;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner > .banner-image  {
+  width: 100%;
+  display: block;
+}
+
+.section  {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+
+.section-heading,
+.section-description  {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.showcase-img {
+  position: relative;
+  max-width: 200%;
+  margin: 3rem auto -12rem;
+}
+
+.section-a  {
+  background-size:cover;
+  padding-bottom: 5rem;
+}
+
+.section-a.fa {
+  font-size:40px;
+  margin-bottom: 5rem;
+  color: #beebff;
+}
+
+.section-a-h5 {
+  margin-bottom:.3rem;
+}
+
+.section-c  {
+  color:#fff;
+}
+
+.section-c .section-description {
+  margin-bottom:4rem;
+}
