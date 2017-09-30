@@ -5,7 +5,7 @@ body  {
 }
 
 .logo  {
-  color: saddlebrown;
+  color: darkmagenta;
   float: left;
   padding-left: 10px;
   font-size: 40px;
@@ -97,8 +97,8 @@ h4  {
   padding-top: 5%;
   text-align: center;
   font-size: 50px;
-  font-family: "Bitstream Charter";
-  color: darkslategray;
+  font-family:
+  color- SansSerif;
   font-stretch: extra-expanded;
 }
 
@@ -129,10 +129,19 @@ h4  {
 }
 
 .form-inline  {
-  padding-top: 30%;
+  padding-top: 1%;
+  padding-bottom: 8%;
 }
 
 .btn-primary  {
   text-align: center;
 }
 
+.inc  {
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+.row  {
+  padding-top: 5%;
+}
